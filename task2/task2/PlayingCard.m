@@ -12,16 +12,18 @@
 
 @synthesize value = _value;
 
--(id)initWithName:(NSString *)name andValue:(NSInteger *)value{
-    self.name = name;
-    self.value = value;
+-(id)initWithName:(NSString *)name andValue:(NSInteger)value{
+    self = [super init];
+    if (self) {
+        self.name = name;
+        self.value = value;
+    }
     return self;
 }
 
--(NSInteger *)value{
-    NSInteger newResult = (int)_value + (int)([[self name] length]);
-    
-        return newResult;
+-(NSInteger)value{
+    NSInteger newResult = _value + ([self.name length]);
+    return newResult;
 }
 
 @end

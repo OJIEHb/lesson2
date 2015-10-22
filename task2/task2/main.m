@@ -32,8 +32,7 @@ int main(int argc, char * argv[]) {
     NSArray *cardsArray = @[cardFirst, cardSecond, cardThird, playingCardFirst, playingCardSecond, playingCardThird];
     
     for (Card *currentCard in cardsArray) {
-        
         NSLog(@"Value = %zd", [currentCard value] );
-            }
+    }
     return 0;
 }
