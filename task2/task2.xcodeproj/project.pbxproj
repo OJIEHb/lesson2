@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		6D7AF2CC1BCD633E0074B523 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7AF2CB1BCD633E0074B523 /* main.m */; };
+		EA3F97F61BD8EFCC007F95ED /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3F97F51BD8EFCC007F95ED /* Card.m */; settings = {ASSET_TAGS = (); }; };
+		EA3F97F91BD8EFEF007F95ED /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3F97F81BD8EFEF007F95ED /* PlayingCard.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6D7AF2C71BCD633E0074B523 /* task2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = task2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D7AF2CB1BCD633E0074B523 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6D7AF2DB1BCD633E0074B523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA3F97F41BD8EFCB007F95ED /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		EA3F97F51BD8EFCC007F95ED /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		EA3F97F71BD8EFEF007F95ED /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		EA3F97F81BD8EFEF007F95ED /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,10 @@
 			isa = PBXGroup;
 			children = (
 				6D7AF2DB1BCD633E0074B523 /* Info.plist */,
+				EA3F97F41BD8EFCB007F95ED /* Card.h */,
+				EA3F97F51BD8EFCC007F95ED /* Card.m */,
+				EA3F97F71BD8EFEF007F95ED /* PlayingCard.h */,
+				EA3F97F81BD8EFEF007F95ED /* PlayingCard.m */,
 				6D7AF2CA1BCD633E0074B523 /* Supporting Files */,
 			);
 			path = task2;
@@ -127,7 +137,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA3F97F91BD8EFEF007F95ED /* PlayingCard.m in Sources */,
 				6D7AF2CC1BCD633E0074B523 /* main.m in Sources */,
+				EA3F97F61BD8EFCC007F95ED /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +267,7 @@
 				6D7AF2E01BCD633E0074B523 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
